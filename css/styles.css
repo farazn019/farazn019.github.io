@@ -1,5 +1,4 @@
 
-
 body{
     background-color:#FFEC00;
 }
@@ -9,5 +8,9 @@ body{
     text-align:center;
     font-family: Impact;
     color: aqua;
+}
+
+#other-pages{
+    text-align:center;
 }
 
