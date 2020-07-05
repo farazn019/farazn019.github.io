@@ -27,3 +27,15 @@ body{
     margin-top:100px;
     margin-left: 80px;
 }
+
+
+.side-project-image{
+    height:200px;
+    width:200px;
+    margin-left:150px;
+    margin-right:150px;
+}
+
+#covid-19-project:hover{
+    background: url("COVID-19-Graph.png");
+}
