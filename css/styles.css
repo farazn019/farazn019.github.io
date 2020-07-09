@@ -29,13 +29,17 @@ body{
 }
 
 
-.side-project-image{
-    height:200px;
-    width:200px;
-    margin-left:150px;
-    margin-right:150px;
+.side-project-image#stock-market-project{
+    height:80px;
+    width:80px;
 }
 
-#covid-19-project:hover{
-    background: url("COVID-19-Graph.png");
+.side-project-image#Corona-virus-project{
+    width:80px;
+    height:80px;
+}
+
+
+#Corona-virus-project:hover{
+    opacity: 15%;
 }
