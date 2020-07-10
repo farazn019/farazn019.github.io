@@ -1,8 +1,7 @@
 
-body{
-    background-color:#FFEC00;
-}
-
+body#home-page-body{background-image: linear-gradient(to right,#f2709c, #ff9472);}
+body#aboutMe-body{ background-image: linear-gradient(to bottom, #EFEFBB, #D4D3DD);}
+body#sideProjects-body{ background-image: linear-gradient(to top, #FC354C, #0ABFBC);}
 
 #Main-Title{
     text-align:center;
@@ -10,10 +9,15 @@ body{
     color: aqua;
 }
 
-.other-pages{
-    text-align:center;
+a.other-pages{
+    text-align: left;
+    margin-left: 250px;
 }
 
+
+#Main-Title{
+    margin-top:40px;
+}
 .my-info{
     color: red;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -28,18 +32,30 @@ body{
     margin-left: 80px;
 }
 
-
-.side-project-image#stock-market-project{
-    height:80px;
-    width:80px;
-}
-
-.side-project-image#Corona-virus-project{
-    width:80px;
-    height:80px;
+img.external-image-maps:hover{
+    width:200px;
+    height:200px;
+    opacity:10%;
 }
 
 
-#Corona-virus-project:hover{
-    opacity: 15%;
+img#stock-market-project{
+    height:800px;
+    width: max-content;
+    display:block;
+    margin-bottom: 100px;
+}
+
+img#Corona-virus-project{
+    width:max-content;
+    height:800px;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+}
+
+
+img#Corona-virus-project:hover{
+    background-image: url("../COVID-19-Graph.png");
+    opacity: 75%;
 }
