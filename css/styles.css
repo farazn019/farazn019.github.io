@@ -9,7 +9,7 @@ body#sideProjects-body{ background-image: linear-gradient(to top, #FC354C, #0ABF
 
 #Main-Title{
     text-align:center;
-    font-family: Impact;
+    font-family: Impact, SansSerif, serif;
     color: aqua;
     margin-top:40px;
 }
