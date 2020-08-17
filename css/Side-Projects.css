@@ -1,0 +1,32 @@
+
+
+img#stock-market-project{
+    height:800px;
+    width: max-content;
+    display:block;
+    margin-bottom: 100px;
+}
+
+img#Corona-virus-project{
+    width:max-content;
+    height:800px;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+}
+
+img#Corona-virus-project{
+    width:max-content;
+    height:800px;
+    transition: opacity 1s ease;
+}
+
+
+img#Corona-virus-project:hover{
+    opacity: 75%;
+    background-image: url("../COVID-19-Graph.png");
+}
+
+img #stock-market-project:hover{
+    opacity: 75%;
+}

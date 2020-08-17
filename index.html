@@ -6,44 +6,61 @@
     <head>
         <meta charset="UTF-8">
         <title>Faraz Naseem: Home</title>
-        <link href="css/styles.css" rel="stylesheet" type="text/css">
+        <link type="text/css" rel="stylesheet" href="css/backgroundAnimation.css">
+        <link href="css/homePage.css" rel="stylesheet" type="text/css">
     </head>
 
-    <body id="home-page-body">
+    <body>
 
-        <!--The links are all grouped into one div tag, and placed at the top of the page.-->
-        <div id="home-page-other-pages">
-            <button class="other-pages" type="button" onclick="location.href='index.html'">Home</button>
-            <button class="other-pages" type="button" onclick="location.href='aboutMe.html'">About Me</button>
-            <button class="other-pages" type="button" onclick="location.href='Side-Projects.html'">Side Projects</button>
+        <!-- The body will be wrapped in a div for the animation to take place for the home page.-->
+        <div class="animation-background">
+            <!--The links are all grouped into one div tag, and placed at the top of the page.-->
+            <div id="home-page-other-pages">
+                <button class="other-pages" type="button" onclick="location.href='index.html'">Home</button>
+                <button class="other-pages" type="button" onclick="location.href='aboutMe.html'">About Me</button>
+                <button class="other-pages" type="button" onclick="location.href='Side-Projects.html'">Side Projects</button>
+            </div>
+
+
+            <h2 id="Main-Title">Faraz Naseem</h2>
+
+            <!--Contains images that will be used for image maps.-->
+            <div id="image-maps">
+                <img src="github.png" alt="Github" usemap="#github" ismap="ismap" class="external-image-maps"/>
+                <img src="linkedin.png" alt="Linkedin" usemap="#linkedin" ismap="ismap" class="external-image-maps"/>
+                <img src="Resume.jpeg" alt="Resume" usemap="#Resume" ismap="ismap" class="external-image-maps"/>
+                <img src="Email.png" alt="Email" usemap="#Email" ismap="ismap" class="external-image-maps"/>
+            </div>
+            <!--Image Maps for the user to click on, that will take them to one of my personal pages-->
+            <div class="use-maps">
+                <map name="github">
+                    <area shape="rect" coords="0, 0, 150, 150" href="https://github.com/farazn019" alt="Faraz Naseem's Github" target="_blank">
+                </map>
+                <map name="linkedin">
+                    <area shape="rect" coords="0, 0, 150, 150" href="https://www.linkedin.com/in/naseem-faraz-97556b16b" alt="Faraz Naseem's LinkedIn" target="_blank">
+                </map>
+                <map name="Resume">
+                    <area shape="rect" coords="0, 0, 150, 150" href="Software_Engineering_Resume.pdf" alt="Faraz Naseem's Resume" target="_blank">
+                </map>
+
+                <map name="Email">
+                    <area shape="rect" coords="0, 0, 150, 150" href="mailto:naseemf@uwindsor.ca" alt="Email Address(naseemf@uwindsor.ca)" target="_blank">
+                </map>
+            </div>
+
+            <!-- This unordered list will contain a total of 5 shapes, which will create the animation in the background -->
+            <ul class="animation">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+
+
+
         </div>
 
-
-        <h2 id="Main-Title">Faraz Naseem</h2>
-
-        <!--Contains images that will be used for image maps.-->
-        <div id="image-maps">
-            <img src="github.png" alt="Github" usemap="#github" ismap="ismap" class="external-image-maps"/>
-            <img src="linkedin.png" alt="Linkedin" usemap="#linkedin" ismap="ismap" class="external-image-maps"/> 
-            <img src="Resume.jpeg" alt="Resume" usemap="#Resume" ismap="ismap" class="external-image-maps"/>
-            <img src="Email.png" alt="Email" usemap="#Email" ismap="ismap" class="external-image-maps"/>
-        </div>
-        <!--Image Maps for the user to click on, that will take them to one of my personal pages-->
-        <div class="use-maps">
-            <map name="github">
-                <area shape="rect" coords="0, 0, 150, 150" href="https://github.com/farazn019" alt="Faraz Naseem's Github" target="_blank">
-            </map>
-            <map name="linkedin">
-                <area shape="rect" coords="0, 0, 150, 150" href="https://www.linkedin.com/in/naseem-faraz-97556b16b" alt="Faraz Naseem's LinkedIn" target="_blank">
-            </map>
-            <map name="Resume">
-                <area shape="rect" coords="0, 0, 150, 150" href="Software_Engineering_Resume.pdf" alt="Faraz Naseem's Resume" target="_blank">
-            </map>
-
-            <map name="Email">
-                <area shape="rect" coords="0, 0, 150, 150" href="mailto:naseemf@uwindsor.ca" alt="Email Address(naseemf@uwindsor.ca)" target="_blank">
-            </map>
-        </div>
     </body>
 
 </html>

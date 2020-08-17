@@ -4,34 +4,47 @@
     <head>
         <meta charset="UTF-8">
         <title>Side Projects</title>
-        <link href="css/styles.css" rel="stylesheet" type="text/css">
+        <link href="css/Side-Projects.css" rel="stylesheet" type="text/css">
+        <link type="text/css" rel="stylesheet" href="css/backgroundAnimation.css">
+
     </head>
 
     <body id="sideProjects-body">
-        <div id="side-projects-other-pages">
-            <button class="other-pages" type="button" onclick="location.href='index.html'">Home</button>
-            <button class="other-pages" type="button" onclick="location.href='aboutMe.html'">About Me</button>
-            <button class="other-pages" type="button" onclick="location.href='Side-Projects.html'">Side Projects</button>
+        <!-- The body will be wrapped in a div for the animation to take place for the side projects page.-->
+        <div class="animation-background">
+            <div id="side-projects-other-pages">
+                <button class="other-pages" type="button" onclick="location.href='index.html'">Home</button>
+                <button class="other-pages" type="button" onclick="location.href='aboutMe.html'">About Me</button>
+                <button class="other-pages" type="button" onclick="location.href='Side-Projects.html'">Side Projects</button>
+            </div>
+
+
+            <br/>
+            <br/>
+
+
+            <img src="StockGraph.png" alt="Stock Market GUI" id="stock-market-project" usemap="#DowJones" ismap="ismap"/>
+            <img src="informationPage.png" alt="InfoGraph" id="Corona-virus-project" usemap="#Coronavirus-infograph" ismap="ismap" />
+
+            <div id="Side-Projects-Maps">
+
+                <map name="DowJones">
+                    <area shape="rect" coords="0, 0, 1846, 800" href="https://github.com/farazn019/DowJones" alt="Link To Stock Market Project" target="_blank">
+                </map>
+                <map name="Coronavirus-infograph">
+                    <area shape="rect" coords="0, 0, 1366, 800" href="https://github.com/farazn019/Win-Hacks-2020-Project" alt="Link To Covid-19-Project" target="_blank">
+                </map>
+            </div>
+
+            <!-- This unordered list will contain a total of 5 shapes, which will create the animation in the background -->
+            <ul class="animation">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+
         </div>
-
-
-        <br/>
-        <br/>
-
-
-        <img src="StockGraph.png" alt="Stock Market GUI" id="stock-market-project" usemap="#DowJones" ismap="ismap"/>
-        <img src="informationPage.png" alt="InfoGraph" id="Corona-virus-project" usemap="#Coronavirus-infograph" ismap="ismap" />
-
-    <div id="Side-Projects-Maps">
-
-        <map name="DowJones">
-            <area shape="rect" coords="0, 0, 1846, 800" href="https://github.com/farazn019/DowJones" alt="Link To Stock Market Project" target="_blank">
-        </map>
-        <map name="Coronavirus-infograph">
-            <area shape="rect" coords="0, 0, 1366, 800" href="https://github.com/farazn019/Win-Hacks-2020-Project" alt="Link To Covid-19-Project" target="_blank">
-        </map>
-
-    </div>
-
     </body>
 </html>

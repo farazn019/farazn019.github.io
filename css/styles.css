@@ -1,112 +1,15 @@
 
+/*
 body#home-page-body{background-image: linear-gradient(to right,#f2709c, #ff9472);}
 body#aboutMe-body{ background-image: linear-gradient(to left, #EFEFBB, #D4D3DD);}
 body#sideProjects-body{ background-image: linear-gradient(to top, #FC354C, #0ABFBC);}
 
 body#home-page-body{background-image: linear-gradient(to right,#f2709c, #ff9472);}
 body#aboutMe-body{ background-image: linear-gradient(to left, #EFEFBB, #D4D3DD);}
-body#sideProjects-body{ background-image: linear-gradient(to top, #FC354C, #0ABFBC);}
-
-#Main-Title{
-    text-align:center;
-    font-family: Impact, SansSerif, serif;
-    color: aqua;
-    margin-top:40px;
-}
-
-button.other-pages{
-    width: 10%;
-    height: 110%;
-    position: relative;
-    left: 25%;
-    margin-right: 12%;
-    background-color: black;
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: bold;
-    font-size: large;
-    border-radius: 8px;
-    cursor: pointer;
-}
-
-button.other-pages:hover {
-    background-color: aqua;
-    color: blue;
-    opacity: 50%;
-    width: 10%;
-    height: 110%;
-
-}
-
+body#sideProjects-body{ background-image: linear-gradient(to top, #FC354C, #0ABFBC);}*/
 
 .my-info{
     color: red;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size:24px;
-}
-
-.external-image-maps {
-    width: 150px;
-    height: 150px;
-    margin-right: 80px;
-    margin-top: 100px;
-    margin-left: 80px;
-}
-
-.external-image-maps:hover {
-    width: 200px;
-    height: 200px;
-    opacity: 0.2;
-}
-
-
-
-
-img#stock-market-project{
-    height:800px;
-    width: max-content;
-    display:block;
-    margin-bottom: 100px;
-}
-
-img#Corona-virus-project{
-    width:max-content;
-    height:800px;
-    margin-left: auto;
-    margin-right: auto;
-    display:block;
-}
-
-img#Corona-virus-project{
-    width:max-content;
-    height:800px;
-    transition: opacity 1s ease;
-}
-
-
-img#Corona-virus-project:hover{
-    opacity: 75%;
-    background-image: url("../COVID-19-Graph.png");
-}
-
-img #stock-market-project:hover{
-    opacity: 75%;
-}
-
-#my-picture {
-    display: inline-block;
-    position: relative;
-    overflow: hidden;
-    border-radius: 50%;
-    margin-top: 50px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-
-#picture{
-    width:300px;
-    height:300px;
-    text-align: center;
 }
