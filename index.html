@@ -6,6 +6,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Faraz Naseem: Home</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link type="text/css" rel="stylesheet" href="css/backgroundAnimation.css">
         <link href="css/homePage.css" rel="stylesheet" type="text/css">
     </head>
@@ -15,11 +16,11 @@
         <!-- The body will be wrapped in a div for the animation to take place for the home page.-->
         <div class="animation-background">
             <!--The links are all grouped into one div tag, and placed at the top of the page.-->
-            <div id="home-page-other-pages">
-                <button class="other-pages" type="button" onclick="location.href='index.html'">Home</button>
-                <button class="other-pages" type="button" onclick="location.href='aboutMe.html'">About Me</button>
-                <button class="other-pages" type="button" onclick="location.href='Side-Projects.html'">Side Projects</button>
-            </div>
+            <nav class="navbar navbar-light bg-light">
+                <a class="navbar-brand" href="index.html">Home</a>
+                <a class="navbar-brand" href="aboutMe.html">About Me</a>
+                <a class="navbar-brand" href="Side-Projects.html">Side Projects</a>
+            </nav>
 
 
             <h2 id="Main-Title">Faraz Naseem</h2>
