@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link type="text/css" rel="stylesheet" href="css/backgroundAnimation.css">
         <link href="css/homePage.css" rel="stylesheet" type="text/css">
+        <script src="https://kit.fontawesome.com/90f2abfdc0.js" crossorigin="anonymous"></script>
     </head>
 
     <body>
@@ -27,26 +28,10 @@
 
             <!--Contains images that will be used for image maps.-->
             <div id="image-maps">
-                <img src="github.png" alt="Github" usemap="#github" ismap="ismap" class="external-image-maps"/>
-                <img src="linkedin.png" alt="Linkedin" usemap="#linkedin" ismap="ismap" class="external-image-maps"/>
-                <img src="Resume.jpeg" alt="Resume" usemap="#Resume" ismap="ismap" class="external-image-maps"/>
-                <img src="Email.png" alt="Email" usemap="#Email" ismap="ismap" class="external-image-maps"/>
-            </div>
-            <!--Image Maps for the user to click on, that will take them to one of my personal pages-->
-            <div class="use-maps">
-                <map name="github">
-                    <area shape="rect" coords="0, 0, 150, 150" href="https://github.com/farazn019" alt="Faraz Naseem's Github" target="_blank">
-                </map>
-                <map name="linkedin">
-                    <area shape="rect" coords="0, 0, 150, 150" href="https://www.linkedin.com/in/naseem-faraz-97556b16b" alt="Faraz Naseem's LinkedIn" target="_blank">
-                </map>
-                <map name="Resume">
-                    <area shape="rect" coords="0, 0, 150, 150" href="Software_Engineering_Resume.pdf" alt="Faraz Naseem's Resume" target="_blank">
-                </map>
-
-                <map name="Email">
-                    <area shape="rect" coords="0, 0, 150, 150" href="mailto:naseemf@uwindsor.ca" alt="Email Address(naseemf@uwindsor.ca)" target="_blank">
-                </map>
+                <a href="https://github.com/farazn019" class="link"><i class="fab fa-github" id="github-icon"></i></a>
+                <a href="https://www.linkedin.com/in/naseem-faraz-97556b16b"><i class="fab fa-linkedin" id="linkedin-icon"></i></a>
+                <a href="Software_Engineering_Resume.pdf"><i class="far fa-file" id="resume-icon"></i></a>
+                <a href="mailto:naseemf@uwindsor.ca"><i class="fas fa-envelope" id="email-icon"></i></a>
             </div>
 
             <!-- This unordered list will contain a total of 5 shapes, which will create the animation in the background -->

@@ -6,20 +6,17 @@
     margin-top:40px;
 }
 
-.external-image-maps {
-    width: 150px;
-    height: 150px;
-    margin-right: 80px;
-    margin-top: 100px;
-    margin-left: 80px;
+#github-icon, #linkedin-icon, #resume-icon, #email-icon{
     position: relative;
-    z-index: 9999;
+    flex: content;
+    margin-top: 5%;
+    font-size: 900%;
+    border-radius: 2%;
+    margin-left: 15%;
+    z-index: 1;
+    cursor: pointer;
 }
-
-.external-image-maps:hover {
+.link{
     position: relative;
-    z-index: 9999;
-    width: 200px;
-    height: 200px;
-    opacity: 0.2;
+    z-index: 1;
 }
