@@ -15,8 +15,14 @@
     margin-left: 15%;
     z-index: 1;
     cursor: pointer;
+    transition: 0.6s;
 }
 .link{
     position: relative;
     z-index: 1;
+}
+
+#github-icon:hover, #linkedin-icon:hover, #resume-icon:hover, #email-icon:hover{
+    opacity: 40%;
+    font-size: 1000%;
 }
