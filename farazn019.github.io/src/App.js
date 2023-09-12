@@ -1,23 +1,18 @@
-import './App.css';
-import {render} from 'react-dom';
-
-
-import Badge from 'react-bootstrap/Badge';
-import Button from 'react-bootstrap/Button';
 import { NavigationBar } from './NavigationBar';
+import { AboutMe } from './AboutMe';
+
+import './App.css';
 
 function App() {
   return (
     <div className="app">
-      {/*<Badge bg="secondary" as={Button}>
-        New
-      </Badge>*/}
+      
       <div className='navigation'>
         <NavigationBar/>
       </div>
 
       <div className="about-me-section">
-
+        <AboutMe/>
       </div>
 
       <div className="work-experience">
@@ -33,7 +28,7 @@ function App() {
       </div>
 
       <div className="contact-me">
-        
+
       </div>
     </div>
   );
