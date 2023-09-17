@@ -10,11 +10,11 @@ export function NavigationBar() {
             <Container>
                 <Navbar.Brand>Navbar</Navbar.Brand>
                 <Nav className="me-auto">
-                    <Nav.Link>About Me</Nav.Link>
-                    <Nav.Link>Work Experience</Nav.Link>
-                    <Nav.Link>Resume</Nav.Link>
-                    <Nav.Link>Side Projects</Nav.Link>
-                    <Nav.Link>Contact Me</Nav.Link>
+                    <Nav.Link href="#about-me-section">About Me</Nav.Link>
+                    <Nav.Link href="#work-experience">Work Experience</Nav.Link>
+                    <Nav.Link href="#resume">Resume</Nav.Link>
+                    <Nav.Link href="#side-projects">Side Projects</Nav.Link>
+                    <Nav.Link href="#contact-me">Contact Me</Nav.Link>
                 </Nav>
             </Container>
         </Navbar>
